@@ -11,6 +11,24 @@
         position:relative;
          left:100px;
         background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+    }
+    .row{
+        float: left; 		/* 要左浮动 */
+        margin-right: 40px;
+        width: 50%;
+        position: absolute;
+         top:0;
+        left:0;
+    }
+    .similar{
+        float: right;
+        width: 50%;
+        position: absolute;
+         top:0;
+
+        right:0;
     }
     a{
         display: block;
@@ -45,14 +63,24 @@
 <body>
 
     <div class="container">
+         <div class = "similar">
+        <br/>
+        <p>文章匹配程度分别为：</p>
+        <br/>
+         {% for z in similar %}
+                <p>第{{forloop.counter}}文章匹配程度：</p>
+                <p>{{z}}</p>
+                <br/>
+        {% endfor %}
+    </div>
+        <div  class="row">
         <lu  font- color="#edecd6" >依据您的设定进行匹配的词汇：  </lu>
         {% for y in token %}
         <p >{{y}}</p>
         {% endfor %}
         <br/>
-        <p>共有约 {{ length }}条结果,仅显示与您搜索相关的结果 </p>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1 scroll">
+        <p>共有约 {{ length }}条结果,其中与您搜索相关的{{related}}条 </p>
+        <div>
                 {% for x in news %}
                 <p><a  href="/GoAbroad/detail/{{x.id}}/" >{{x.title}}</a></p>
                 <br/>

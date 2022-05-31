@@ -70,21 +70,30 @@ def search(request):
     query_temp = start_query(select,question,query_context)
     query_vector = query_temp[0]
     token = query_temp[1]
-    query_vector_sort = sorted(query_vector,reverse = False)#排序
+    query_vector_sort_1 = sorted(query_vector.items(),key=lambda x:x[1],reverse = True)#排序
+    query_vector_sort = []
+    for i in query_vector_sort_1:
+        query_vector_sort.append(i[0])
     news_list = []
     news = News.objects.all()
-
+    print(query_vector_sort)
     news_list_similirity = []
+    temp = []
     for i in query_vector_sort:
         if query_vector.get(i) > 0:
+            temp.append(query_vector.get(i))
+    related = len(temp)
+
+    for i in query_vector_sort:
             news_list_similirity.append(query_vector.get(i))
     for i in  query_vector_sort:
         for j in news:
             if i == j.title:
-                if query_vector.get(i) > 0:
-                    news_list.append(j)
+                news_list.append(j)
+
     length = len(news_list)
-    context = {'token':token,'similar':news_list_similirity,'news': news_list,'length':length}
+    print( query_vector_sort)
+    context = {'token':token,'similar':news_list_similirity,'news': news_list,'length':length,'related':related}
     return render(request, 'blog_list.html', context)
 
 
