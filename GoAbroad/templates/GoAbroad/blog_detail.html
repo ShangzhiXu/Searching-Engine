@@ -4,89 +4,32 @@
 {% block content %}
 <head>
     <meta charset="UTF-8">
-    <title>{{context.title}}</title>
+    <title>{{news.title}}</title>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/lib/w3.css">
+<link rel="stylesheet" href="../lib/w3-theme-black.css">
+<link rel="stylesheet" href="../../fonts.googleapis.com/css-family=Roboto.html">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <style>
-    html,body{
-        height: 100%;
-    }
-    .box{
-        width: 1000px;
-        padding: 40px;
-    }
-    .box h1{
-        color: #344B48;
-        padding-bottom: 24px;
-    }
-    .box p,textarea{
-        color: black;
-        font-family: "Yuanti SC";
-        font-size: 22px;
-        -webkit-animation:myfirst 2s;
-    }
-    @-webkit-keyframes myfirst /* Safari and Chrome */
-{
-	from {
-	color:white;
-	}
-	to {
-	color: black;
-	}
-}
-    .box a[href="/GoAbroad/list/"]{
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-        border: 0;
-        text-decoration: none;
-        background: none;
-        display: block;
-        margin: 20px auto;
-        text-align: center;
-        border: 2px solid #2ecc71;
-        padding: 17px 10px;
-        width: 80px;
-        outline: none;
-        color:black;
-        border-radius: 24px;
-        transition: 0.25s;
-        font-family: "Yuanti SC";
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    textarea{
-        width: 700px;
-        height: 500px;
-        background: none;
-        border: 2px solid black;
-        padding: 14px 10px;
-        outline: none;
-        color: black;
-        border-radius: 24px;
-    }
-    .box p .title{
-        font-size: 25px;
-        color: #2E3635;
-
-    }
-    .box p .data{
-        font-size: 30px;
-        font-family: "Times New Roman";
-        color: #2f2c1c;
-        position: absolute;
-        left: 220px;
-    }
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4{padding:12px;}
+.w3-navbar a{padding-top:12px !important;padding-bottom:12px !important;}
 </style>
 <body>
-<span>{{context.ID}}</span>
-{% csrf_token %}
-<div class="box" >
-    <h1><span class="title">{{news.title}}</span></h1>
-    <p><span class="textarea">{{news.text}}</span></p>
-    <a href="/GoAbroad/list/">back</a>
-</div>
-</form>
+
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-hor-64">
+    <div class="w3-twothird w3-container">
+    {% csrf_token %}
+    <div class="box" >
+        <h1 class="w3-text-teal"><span class="title">{{news.title}}</span></h1>
+        <p>{{news.text}}</p>
+    </div>
+
+  </div>
+
 
 </body>
 </html>

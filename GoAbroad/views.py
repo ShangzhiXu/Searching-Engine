@@ -26,19 +26,22 @@ def home(request):
 
 """
 接受参数：request
-返回： 展示所有的在数据库重的用户信息
+返回： 展示所有的在数据库的信息
 """
 def list(request):
     global query_context
     query_context = main()
     news = News.objects.all()
-    context = {'news': news}
+    abs = []
+    for item in news:
+        abs.append(item.text[0:20])
+    length = len(news)
+    context = {'news': news,'abs':abs,'length':length}
     return render(request, 'blog_list.html', context)
 
 
 """
-接受参数：request，student_id
-返回： 展示一个学生的所有基本信息，包括GPA等，保证主键、外键约束
+接受参数：request，news_id
 """
 def blog_detail(request,news_id):
     global query_context
@@ -64,15 +67,27 @@ def search(request):
     if not question:
         error_msg = '请输入关键词'
         return HttpResponse(error_msg)
-    start_query(select,question,query_context)
-    context = {'news': student_list}
+    query_vector = start_query(select,question,query_context)
+    query_vector_sort = sorted(query_vector,reverse = False)#排序
+    news_list = []
+    news = News.objects.all()
+    for i in query_vector_sort :
+        for j in news:
+            if i == j.title:
+                news_list.append(j)
+
+    length = len(news_list)
+    print(query_vector[0])
+
+    print(length)
+    context = {'news': news_list,'length':length}
     return render(request, 'blog_list.html', context)
 
 
 
-def merge(student_list1, student_list):
+def merge(n_list1, n_list):
     returnlist = []
-    for item in student_list:
-        if item in student_list1:
+    for item in n_list:
+        if item in n_list1:
             returnlist.append(item)
     return returnlist

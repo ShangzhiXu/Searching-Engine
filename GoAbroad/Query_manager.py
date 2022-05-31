@@ -2,6 +2,7 @@ from .File_manager import *
 from .VSM_manager import *
 from .nltk_manager import *
 from .IntertedIndex import *
+from .models import *
 
 def init_queue(dir: object) -> object:
     VSM_base = getIndex(dir)
@@ -30,7 +31,6 @@ def start_query(setting,query_sentence,query_context):
 
     print("""======================Searching Engine===========================""")
     query_set = setting
-    print("=================Query mode set=================")
     query = Input_purify(query_sentence)
     set_match_setting(query_set,"default",query)
 
@@ -41,6 +41,4 @@ def start_query(setting,query_sentence,query_context):
             similarity = cosine_similarity(query_vector,VSM_vector[fileName])
             similarity_list.setdefault(fileName,0)
             similarity_list[fileName] += similarity
-            print(item)
-            print(similarity_list)
-        print(similarity_list)
+    return similarity_list

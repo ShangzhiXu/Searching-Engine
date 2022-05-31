@@ -8,63 +8,48 @@
         height: 100%;
     }
     .container{
-
+        position:relative;
+         left:100px;
         background-repeat: no-repeat;
     }
-    .row a{
+    a{
         display: block;
         height: 30px;
         width: auto;
         text-decoration: none;
         color: black;
         font-family: "Yuanti SC";
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
-        margin: 5px 0 0 10px;
+        margin: 0px 0 0 10px;
     }
-    .row a:hover{
-        font-size: 30px;
+    a:hover{
+        font-size: 25px;
     }
-    .row p{
+    p{
         display: inline-block;
         font-family: "Yuanti SC";
-        font-size: 20px;
-        color: #344B48;
+        font-size: 10px;
+        color: #1b1b1b;
         margin: 0 0 0 10px;
-        border-bottom: 2px double #344B48;
     }
-    .menu {
-        position: fixed;
-        top: 68px;
-        right: 0px;
-        border: 0;
-        display: block;
-        border: 2px solid #256272;
-        padding: 17px 10px;
-        width: 100px;
 
-    }
-    .menu a{
-        display: block;
-        color: #55829f;
-        border-radius: 24px;
-        transition: 0.25s;
-        font-family: "Yuanti SC";
-        font-size: 20px;
-        text-decoration: none;
-        margin-bottom: 10px;
-    }
-    .menu a:hover{
-        color:black;
-    }
 
 </style>
 <body>
+
     <div class="container">
+        <p>共有约 {{ length }}条结果,仅显示与您搜索相关的结果 </p>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1 scroll">
                 {% for x in news %}
-                <a href="/GoAbroad/detail/{{x.id}}/" >{{x.title}}</a>
+                <p><a  href="/GoAbroad/detail/{{x.id}}/" >{{x.title}}</a></p>
+                <br/>
+                <p>发布日期：{{x.time}}</p>
+                 <br/>
+                <p>URL：{{x.url}}</p>
+                 <br/>
+                 <br/>
                 {% empty %}
                  <p>-----敬请期待-----</p>
                 {% endfor %}
@@ -72,6 +57,9 @@
         </div>
     </div>
 </body>
+
+
+
 
 
 {% endblock %}
