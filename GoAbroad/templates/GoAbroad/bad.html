@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+{% extends 'base.html'%}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    html,body{
+        height: 100%;
+    }
+    .box{
+        width: 1000px;
+        padding: 40px;
+    }
+    .box h1{
+        color: #344B48;
+        padding-bottom: 24px;
+    }
+    .box p,textarea{
+        color: black;
+        font-family: "Yuanti SC";
+        font-size: 22px;
+        -webkit-animation:myfirst 2s;
+    }
+    @-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {
+	color:white;
+	}
+	to {
+	color: black;
+	}
+}
+    .box a[href="/GoAbroad/list/"]{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        border: 0;
+        text-decoration: none;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2ecc71;
+        padding: 17px 10px;
+        width: 80px;
+        outline: none;
+        color:black;
+        border-radius: 24px;
+        transition: 0.25s;
+        font-family: "Yuanti SC";
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    textarea{
+        width: 700px;
+        height: 500px;
+        background: none;
+        border: 2px solid black;
+        padding: 14px 10px;
+        outline: none;
+        color: black;
+        border-radius: 24px;
+    }
+
+</style>
+<body>
+<h3>{{error_message}}</h3><br>
+</form>
+
+</body>
+</html>
+{% endblock %}

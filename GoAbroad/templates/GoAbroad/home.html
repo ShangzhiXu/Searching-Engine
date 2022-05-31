@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+
+{% block content %}
+<style>
+ h1.padding{
+    position:relative;
+    top:100px;
+    font-size:50px;
+      color:	#686868;
+    -webkit-animation:myfirst 2s;
+
+   }
+   h2.padding
+   {
+    position:relative;
+    top:180px;
+    color: mintcream;
+    -webkit-animation:mysecond 3s;
+   }
+   h3.padding
+   {
+    position:relative;
+    top:120px;
+    color: 	white  ;
+    -webkit-animation:mythird 4s;
+   }
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {
+	top:150px;
+	color:#f2f2f2;
+	}
+	to {
+	top:100px;
+	}
+}
+@-webkit-keyframes mysecond
+{
+	from {
+	top:200px;
+	color:mintcream;
+	}
+	to {
+	top:180px;
+    color:mintcream;
+	}
+}
+@-webkit-keyframes mythird
+{
+	from {
+	top:180px;
+	color:#f2f2f2;
+	}
+	to {
+	top:120px;
+	color: white;
+	}
+}
+a{
+ text-decoration: none;
+ color: chocolate;
+}
+a:hover{
+ font-size: 25px;
+ color: coral;
+}
+
+.search {
+        margin-top: 1cm;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-color: lightgray;
+        width: 50%;
+    }
+.select {
+        margin-top: 1cm;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        border-color: lightgray;
+        width: 4%;
+    }
+html{
+        background-color: 		#E8E8E8   ;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+</style>
+
+<!--<img src="/static/background.jpg/" >-->
+
+<h1 class="padding" ><center> SearchEngine</center></h1>
+    <form  method="get" action="/GoAbroad/search/">
+        <h3 class="padding">
+        <center>
+            <input class="search" type="text" name="search"  placeholder="🔍   在SearchEngine上搜索或输入网址">
+            <input class="select"type="number" name="select" placeholder="设置" />
+            <button type="submit">搜索</button>
+        </center>
+         </h3>
+    </form>
+
+<h2 class="padding"><center>Search-engine project designed by bupt group</center></h2>
+<div class="search-box">
+
+</div>
+</h3>
+
+
+</html>
+{% endblock %}

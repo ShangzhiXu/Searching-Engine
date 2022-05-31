@@ -1,0 +1,77 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<title>个人博客</title>
+<style>
+    html,body{
+        height: 100%;
+    }
+    .container{
+
+        background-repeat: no-repeat;
+    }
+    .row a{
+        display: block;
+        height: 30px;
+        width: auto;
+        text-decoration: none;
+        color: black;
+        font-family: "Yuanti SC";
+        font-size: 24px;
+        font-weight: bold;
+        margin: 5px 0 0 10px;
+    }
+    .row a:hover{
+        font-size: 30px;
+    }
+    .row p{
+        display: inline-block;
+        font-family: "Yuanti SC";
+        font-size: 20px;
+        color: #344B48;
+        margin: 0 0 0 10px;
+        border-bottom: 2px double #344B48;
+    }
+    .menu {
+        position: fixed;
+        top: 68px;
+        right: 0px;
+        border: 0;
+        display: block;
+        border: 2px solid #256272;
+        padding: 17px 10px;
+        width: 100px;
+
+    }
+    .menu a{
+        display: block;
+        color: #55829f;
+        border-radius: 24px;
+        transition: 0.25s;
+        font-family: "Yuanti SC";
+        font-size: 20px;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    .menu a:hover{
+        color:black;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1 scroll">
+                {% for x in news %}
+                <a href="/GoAbroad/detail/{{x.id}}/" >{{x.title}}</a>
+                {% empty %}
+                 <p>-----敬请期待-----</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+
+
+{% endblock %}

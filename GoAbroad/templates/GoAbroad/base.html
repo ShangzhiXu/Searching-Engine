@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+</head>
+    <script>
+    function goBack(){
+     window.history.back()
+    }
+    </script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        background-color: 		#E8E8E8  ;
+        background-repeat: no-repeat;
+    }
+
+    .container-fluid{
+        width: 100%;
+        height: 62px;
+        border-bottom:3px solid #7C99AC;
+    }/*导航栏容器*/
+
+    .navbar-header {
+        float: left;
+        display: inline-block;
+        line-height: 60px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #2E3635;
+    }/*logo*/
+
+    li{
+        height: 0;
+        list-style: none;
+    }
+
+    a{
+        float: right;
+        font-family: "Yuanti SC";
+        text-decoration: none;
+        color: #7C99AC;
+        display: block;
+        line-height: 60px;
+        font-size: 28px;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    a:hover{
+        color: black;
+    }
+
+    .search-box{
+        float: left;
+        width: 800px;
+        height: 60px;
+    }
+    .search-box input[type="number"]{
+        float: left;
+        width: 130px;
+        height: 35px;
+        margin: 13px 10px 12px 10px;
+        line-height: 60px;
+        font-size: 15px;
+        font-family: "Yuanti SC";
+        font-weight: lighter;
+    }
+    .search-box input[type="text"]{
+        float: left;
+        width: 200px;
+        height: 31px;
+        line-height: 60px;
+        margin: 13px 10px 12px 0;
+        transition: 0.25s;
+        font-size: 20px;
+        font-family: "Yuanti SC";
+        font-weight: lighter;
+    }
+    .search-box button[type="submit"]{
+        float: left;
+        width: 100px;
+        height: 35px;
+        display: block;
+        margin: 13px auto;
+        text-align: center;
+        font-family: "Yuanti SC";
+        font-weight: lighter;
+    }
+    .search-box button[onclick="window.location.href='/GoAbroad/adv_search/'"]{
+        float: left;
+        width: 70px;
+        height: 35px;
+        margin: 13px 4px;
+        font-family: "Yuanti SC";
+        font-weight: lighter;
+    }
+
+
+
+</style>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <h5><a class="navbar-brand" href="/GoAbroad/" color = "black">SearchEngine</a></h5>
+        </div>
+          <div class="search-box">
+            <form  class="search"method="get" action="/GoAbroad/search/">
+                {% csrf_token %}
+                <input type="number" name='select' placeholder=" setting" />
+                <input type="text" name='q' placeholder=" search" />
+                <button type="submit">搜索</button>
+            </form>
+
+        </div>
+        <ul class="nav navbar-nav ">
+            <li><a class="navbar-brand" href="/GoAbroad/list/">全部内容</a></li>
+        </ul>
+
+
+
+
+    </div>
+</div>
+<div>
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>
