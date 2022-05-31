@@ -41,4 +41,4 @@ def start_query(setting,query_sentence,query_context):
             similarity = cosine_similarity(query_vector,VSM_vector[fileName])
             similarity_list.setdefault(fileName,0)
             similarity_list[fileName] += similarity
-    return similarity_list
+    return [similarity_list,query.words_token]

@@ -33,12 +33,23 @@
         color: #1b1b1b;
         margin: 0 0 0 10px;
     }
-
+     lu{
+        display: inline-block;
+        font-family: "Yuanti SC";
+        font-size: 10px;
+        color: #666666;
+        margin: 0 0 0 10px;
+    }
 
 </style>
 <body>
 
     <div class="container">
+        <lu  font- color="#edecd6" >依据您的设定进行匹配的词汇：  </lu>
+        {% for y in token %}
+        <p >{{y}}</p>
+        {% endfor %}
+        <br/>
         <p>共有约 {{ length }}条结果,仅显示与您搜索相关的结果 </p>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-7 col-md-offset-1 scroll">

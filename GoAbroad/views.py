@@ -67,20 +67,24 @@ def search(request):
     if not question:
         error_msg = '请输入关键词'
         return HttpResponse(error_msg)
-    query_vector = start_query(select,question,query_context)
+    query_temp = start_query(select,question,query_context)
+    query_vector = query_temp[0]
+    token = query_temp[1]
     query_vector_sort = sorted(query_vector,reverse = False)#排序
     news_list = []
     news = News.objects.all()
-    for i in query_vector_sort :
+
+    news_list_similirity = []
+    for i in query_vector_sort:
+        if query_vector.get(i) > 0:
+            news_list_similirity.append(query_vector.get(i))
+    for i in  query_vector_sort:
         for j in news:
             if i == j.title:
-                news_list.append(j)
-
+                if query_vector.get(i) > 0:
+                    news_list.append(j)
     length = len(news_list)
-    print(query_vector[0])
-
-    print(length)
-    context = {'news': news_list,'length':length}
+    context = {'token':token,'similar':news_list_similirity,'news': news_list,'length':length}
     return render(request, 'blog_list.html', context)
 
 
