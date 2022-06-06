@@ -1,0 +1,6 @@
+By He Wei in Shanghai | chinadaily.com.cn | Updated: 2022-05-17 17:12
+SenseTime's AI-powered medical solution for diseases related to the liver is used in a hospital in Hangzhou, East China's Zhejiang province. [Photo provided to chinadaily.com.cn]
+Artificial intelligence company SenseTime has introduced an AI-powered system that allows for better management of the makeshift COVID-19 hospital in Shanghai's Lingang area.
+The system, the result of a partnership between SenseTime and the Shanghai Lingang Economic Development Group, was developed within seven days and allows for the management of hospitals areas, beds, personnel, and recording of nucleic acid tests to be done digitally, the company said in a press release.
+The proprietary system can also locate infected cases and close contacts and allow logistics personnel to register their tasks more conveniently.
+The company is also helping expedite personnel movement within the Lingang industry park through a separate epidemic prevention system called SenseThunder-Air "All-in-One". The devices installed at entrances allow for checks on temperature, health code, vaccination history and nucleic acid reports.

@@ -30,7 +30,6 @@ def home(request):
 """
 def list(request):
     global query_context
-    query_context = main()
     news = News.objects.all()
     abs = []
     for item in news:
@@ -45,7 +44,6 @@ def list(request):
 """
 def blog_detail(request,news_id):
     global query_context
-    query_context = main()
     news= get_object_or_404(News,id=news_id)
     context = {'news':news
                }

@@ -1,0 +1,9 @@
+Xinhua | Updated: 2022-05-27 09:57
+BEIJING -- Chinese scientists have developed a tiny robot with "muscles" and "feet" that can wriggle its way around like an earthworm through pipes smaller than a centimeter in diameter.
+The 2.2-gram, 47-millimeter-long robot, powered by an electric tether, can be potentially used for inspecting complex, narrow pipelines inside aircraft engines or oil refinery machinery, according to the study published on Thursday in the journal Science Robotics.
+Researchers from Tsinghua University assembled the pipeline inspection robot using long-life elastomer as its artificial muscles and smart-composite anchoring units as its "feet".
+The robot is shown in their experiments to move more than one body length per second both horizontally and vertically, thanks to the elastomer contraction.
+Also, it can move through pipes of varying geometries like L-shaped and spiral-shaped pipes with changing diameters, and pipes filled with either air or oil, according to the study.
+The researchers use magnets to snap the robot's modular pieces together so that it can fit a pipeline's shape easily.
+In addition, the robot has a soft body that allows it to adapt to different pipe conditions passively, said the paper's corresponding author Zhao Huichan, associate professor at the Department of Mechanical Engineering of Tsinghua University.
+The researchers have demonstrated the robot's capabilities in the study by mounting a small endoscopic camera onto it before controlling it from the outside to complete a pipe inspection at different speeds.

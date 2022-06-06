@@ -1,0 +1,11 @@
+Xinhua | Updated: 2022-05-17 13:13
+BEIJING -- A Chinese telecom service provider rolled off a smartphone using quantum tech that can ensure the user chat on the device is almost "unhackable."
+Launched by China Telecom, Tianyi No 1 2022 is a smartphone mounted with a quantum-secured encryption module and purpose-built SIM card that can encrypt and decipher voice calls on the phone using the quantum key distribution, Science Daily reported Tuesday.
+The telecom giant and the startup QuantumCTeck set up a joint venture in 2021 to develop quantum-based communication and bring the ingenious know-how to market.
+Chinese scientists, some of whom were part of the founding team of QuantumCTeck, tested the quantum key distribution with the world's first quantum satellite Micius launched in August 2016.
+Unlike traditional cryptography, the technology uses single photons in quantum superposition states by which the key is embedded to guarantee unconditional security between distant parties.
+Quantum superposition is a fundamental principle of quantum mechanics, stating that, much like waves in classical physics, any two or more quantum states can be added together.
+The communication is, therefore, "unhackable" as any attempt to intercept the key would be known immediately both to the sender and the intended recipient.
+"When a user initiates a quantum-secured chat, a secret key will be generated at random to verify his or her identity," said Zhang Rutong, an engineer with QuantumCTeck. "After verification, the quantum network will generate a new real-time key to encrypt voice data."
+"The key is randomly generated, hard to crack and discarded immediately after calling," Zhang added.
+The service is available when both senders and recipients use the quantum-based phone.

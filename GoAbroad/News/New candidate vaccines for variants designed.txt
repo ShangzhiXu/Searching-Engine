@@ -1,0 +1,10 @@
+China Daily | Updated: 2022-04-07 09:55
+A resident receives a COVID-19 booster shot at a vaccination site in Yongchuan district, Southwest China's Chongqing municipality, April 2, 2022. [Photo/IC]
+Chinese scientists have described a new strategy for making vaccines against COVID-19 that could elicit effective neutralizing antibodies against the Omicron and Delta variants.
+Researchers led by Wei Wensheng from Peking University have developed a platform to produce next-generation vaccine design or circular RNA (circRNA) vaccines.
+The spike protein of the virus that causes COVID-19 has been used as the primary target of mRNA vaccines. But those vaccines with a linear RNA structure tend to miss the target in neutralizing emerging variants.
+The circRNA vaccines with a closed ring structure are more stable than mRNA vaccines, thus inducing more potent humoral and cellular immune responses, according to the study recently published in the journal Cell.
+They are shown to elicit a high proportion of neutralizing antibodies, and enable effective protection against SARS-CoV-2 in mice and rhesus macaques.
+Furthermore, the vaccines can produce a kind of protective T cell response, which could effectively reduce the risks of potential vaccine-associated enhanced respiratory diseases, the researchers said.
+The study showed that one vaccine of this kind targeting Omicron induced effective neutralizing antibodies against Omicron but not the Delta variant, while another vaccine targeting Delta protected against both Delta and Omicron or functioned as a booster after two doses of vaccination.
+Therefore, the researchers suggested the circRNA-Delta vaccine could be developed into broad-spectrum candidate vaccines.

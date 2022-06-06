@@ -1,0 +1,6 @@
+Xinhua | Updated: 2022-05-07 14:20
+File photo: Photo provided by the China National Space Administration (CNSA) shows Chang'e-5 probe gathering samples on the moon on Dec 2, 2020. [Photo/Xinhua]
+BEIJING - China has released a batch of datasets from the payloads installed on Chang'e-5 probe, according to the China National Space Administration on Saturday.
+The payloads include a landing camera, a panoramic camera, a lunar mineralogical spectrometer and a lunar regolith penetrating radar, said the CNSA.
+Public users can visit the website of China's Lunar and Planetary Data Release System (http://moon.bao.ac.cn) to obtain the datasets, the CNSA added.
+The Chang'e-5 probe, comprising an orbiter, a lander, an ascender, and a returner, was launched on Nov 24, 2020. The return capsule landed in north China's Inner Mongolia autonomous region on Dec 17, 2020, retrieving a total of 1,731 grams of lunar samples, mainly rocks and soil from the moon's surface.

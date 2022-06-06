@@ -1,0 +1,11 @@
+China Daily | Updated: 2022-05-20 09:32
+Videos are captured by 37 high-definition surveillance cameras and analyzed with technologies such as big data and edge computing to improve the efficiency of fishery administration.
+To preserve the biodiversity of the Yangtze River, China began a 10-year fishing moratorium from the beginning of 2020 in 332 conservation areas in the Yangtze River basin. The ban was later expanded to all the natural waterways of the river and its major tributaries.
+However, the lack of adequate law enforcement officials and vehicles was a major obstacle to supervision.
+"Earlier, we mainly relied on reports and patrolling to monitor illegal fishing, but that had led to two issues. On the one hand, it was difficult to investigate and collect evidence, while on the other hand, we were always understaffed," said Zhou Jie, who is in charge of the fishery administration in Jiujiang.
+The AI system can detect motion anomalies and deliver warnings to an accompanying app in real time, alerting patrolling personnel so they can respond promptly, Zhou said.
+"The AI-powered system has made monitoring much more targeted and efficient," he added.
+In less than a month, the system has identified 28 illegal fishing activities.
+Similar systems have been deployed in many other regions along the Yangtze River such as in Chongqing and Anhui province.
+"We look forward to the application of more advanced technologies to ensure proper implementation of the 10-year fishing ban so that the Yangtze River will always be a paradise for aquatic life," Zhou said.
+XINHUA

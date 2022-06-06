@@ -1,21 +1,28 @@
 import json
 import os
 import re
+
 projectpath = os.getcwd()
 
 def getFileName(filename):
-    filename_new = re.search('(.*)\.', filename, re.M | re.I)
-    return filename_new.group(1)
+    end = filename.find('.')
+    filename_new = filename[0:end]
+    #filename_new = re.search('(.*)\.txt', filename, re.M | re.I)
+    return filename_new
 def ReadFromFile(filename):
     # 将数据读出
-    file = open(filename,'r')
+    file = open(filename,'r',encoding='ISO-8859-1')
     str = file.read()
     file.close()
 
 def ReadLinesFromFile(filename):
     # 将数据读出
     file = open(filename,'r')
-    str = file.readlines()
+    str = ""
+    try:
+        str = file.readlines()
+    except Exception as e:
+        pass
     file.close()
     return str
 

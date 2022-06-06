@@ -16,19 +16,17 @@ def getIndex(dirName):
             words = Input_purify(sentence)
             words.get_stem()
             words.delete_stopwords()
-            num = 0
             for word in words.words_token:
                 if word not in invertedIndexTable:
                     pos = {}
-                    pos[fileName] = [num]
+                    pos[fileName] = [file_word_num]
                     invertedIndexTable[word] = pos
                 else:
                     if fileName not in invertedIndexTable[word]:
-                        invertedIndexTable[word][fileName] = [num]
+                        invertedIndexTable[word][fileName] = [file_word_num]
                     else:
-                        invertedIndexTable[word][fileName].append(num)
-                num += 1
-            file_word_num += num
+                        invertedIndexTable[word][fileName].append(file_word_num)
+                file_word_num += 1
         files_len.setdefault(fileName,0)
         files_len[fileName] = file_word_num
     writeFile(invertedIndexTable,projectpath+'/invertIndex.json')

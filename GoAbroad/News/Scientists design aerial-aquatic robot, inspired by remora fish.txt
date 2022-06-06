@@ -1,0 +1,10 @@
+Xinhua | Updated: 2022-05-19 16:18
+BEIJING -- A team of Chinese scientists along with their international counterparts have designed a robotic drone capable of crossing the air-water boundary and hitchhiking on surfaces.
+The scientists from Beihang University and Imperial College London drew inspiration from remora fish, a family of species known for their adhesive discs that help them catch a ride on marine creatures including whales and sharks. The unique ability of this fish to hitchhike on moving objects helps it to save effort.
+The 3D-printed, untethered robot can switch from an underwater drone to an aerial vehicle in less than one second due to the unique design of its propellers that make this transition between mediums faster than most previous aerial-aquatic robots, according to the study published Thursday in the journal Science Robotics.
+The robot is installed with a remote-controlled suction pad that can stick to wet and dry surfaces with different textures, even on moving objects, according to the study.
+It can rapidly attach and detach on challenging surfaces both in air and under water, including curved, rough, unfinished, and biofouling surfaces, and achieve long-duration adhesion with minimal oscillation.
+Untethered drones are good at working in expansive or remote environments, but one obstacle to their application is that their batteries tend to drain quickly. The hitchhiking mode helps solve the energy problem.
+During application tests, the robot hitched a ride on a swimming host vehicle to obtain seabed images of hermit crabs, scallops, and seaweed. It consumed significantly less energy, spending roughly 19 times less power than it would have spent using self-propulsion, according to the study.
+Also, the robot's passively morphing propellers that unfold in the air and fold underwater, can cross the air-water boundary in 0.35 second.
+In the future, the robot's design could enable autonomous biological detection, monitoring, and tracking capabilities in a wide variety of aerial-aquatic environments, said Wen Li, with Beihang University, the paper's corresponding author.

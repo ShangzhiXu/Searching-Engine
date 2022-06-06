@@ -1,0 +1,5 @@
+Xinhua | Updated: 2022-04-13 15:47
+BEIJING -- China successfully received data from the recently launched Gaofen-3 03 satellite on Tuesday, according to the Aerospace Information Research Institute under the Chinese Academy of Sciences.
+The package of data with a total size of 44 gigabytes was received by the remote sensing satellite ground station in Miyun on the outskirts of Beijing and the ground station in south China's Sanya.
+On April 7, the Gaofen-3 03 satellite was successfully launched into orbit and will be networked with the orbiting Gaofen-3 and Gaofen-3 02 satellites to form a land-sea radar satellite constellation and capture reliable, stable synthetic aperture radar (SAR) images.
+The satellites will serve the fields of marine disaster prevention and mitigation, dynamic marine environment monitoring, marine research, environmental protection, water conservancy, agriculture and meteorology.

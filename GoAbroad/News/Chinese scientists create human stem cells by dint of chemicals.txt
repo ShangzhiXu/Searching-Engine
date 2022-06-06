@@ -1,0 +1,9 @@
+Xinhua | Updated: 2022-04-18 17:03
+BEIJING -- Chinese scientists have translated human somatic cells back into pluripotent stem cells, an "adult" version of early embryonic cells, using chemical molecules.
+A group of researchers led by Deng Hongkui from Peking University reported finding the chemical cellular reprogramming technique for the first time ever.
+Previously, the cell-intrinsic components, including oocyte cytoplasm and transcription factors, are used to reprogram cells in human tissue or organs into pluripotent stem cells that can propagate to give rise to every other cell type in the body.
+Inspired by how lower animals like axolotl regenerate its limb, the researchers demonstrated that the highly differentiated human somatic cells could experience plastic changes, triggered by certain chemical molecules, according to the study published recently in the journal Nature.
+Then they successfully singled out a group of chemicals that help lead to the dedifferentiation of the cells, finally inducing pluripotent stem cells that exhibit key features of embryonic stem cells.
+They identified a molecular pathway called JNK as a major barrier to chemical reprogramming, the inhibition of which was therefore indispensable for creating cell plasticity and a regeneration-like program, according to the study.
+The chemical reprogramming is "safer, simpler and easier to be standardized and used clinically" than previously known approaches, said Deng, the paper's co-corresponding author.
+The technique can be developed into universal knowhow to efficiently cultivate human cells of various functions, offering new possibilities for treating critical illnesses, the researchers said.

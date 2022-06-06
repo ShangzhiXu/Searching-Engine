@@ -1,0 +1,10 @@
+Xinhua | Updated: 2022-05-26 13:10
+BEIJING -- Chinese and the US scientists have developed a tiny, untethered crab-like robot capable of walking in different directions at varying speeds.
+A study published on Thursday in the journal Science Robotics detailed the microbots, which are made of shape-memory alloy and measure smaller than a millimeter in size. Lasers are used to directly manipulate their movements.
+Han Mengdi with Peking University and collaborators from Northwestern University in Illinois exploited controlled mechanical buckling to convert multi-layer 2D patterns into 3D structures.
+Then, they deposited an additional conformal coating of silicon dioxide to fix the 3D shapes, which can range from arrays of curved filaments and origami-like folded constructs, to multiple biomimetic configurations, according to the study.
+The researchers found that selective heating on a specific part of the robot can induce a directional locomotion, thanks to its asynchronous change in shape during laser scanning.
+When a laser shines on the robots, their joints expand from the heat. When the laser stops shining, their joints contract as they cool. This causes a crab-like scuttling motion, with their speed and direction dependant on the light frequency and angle.
+The ribbon robot shown in the paper operates with an average speed of 0.017 mm/s at a laser scanning frequency of 0.1 Hz and its average speed increases to 0.49 mm/s at a frequency of 10 Hz.
+The study also demonstrated that the robots can revert to their original 2D shapes and be remodeled to suit different purposes. With varying 3D geometries and laser scanning patterns, they can bend, twist, jump and zigzag.
+The micro-bots, designed for mass production, have the potential to be used as mobile sensors in the limited spaces or minimally invasive surgery in the future, said the researchers.

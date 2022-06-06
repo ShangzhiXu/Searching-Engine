@@ -1,0 +1,14 @@
+By WANG XIAOYU | CHINA DAILY | Updated: 2022-04-19 10:14
+Chinese researchers said they have developed a new novel coronavirus test that can return accurate results in less than 20 minutes and that is as sensitive as the lab-based PCR test.
+Researchers from Wuhan University's Medical Research Institute in Wuhan, capital of Hubei province, said the easy-to-use tests can be administered at airports, hospitals and in individual households.
+However, they noted that some technological hurdles remain, such as clinical trials that will take several months, before the wide deployment of the tests.
+For mass screening campaigns, China mostly relies on polymerase chain reaction tests£­a gold standard testing method that must be processed by laboratory workers and that have a turnaround time of about six hours. Since mid-March, the country has also adopted rapid antigen tests that can be administered at home but are less accurate.
+In search of a new test that is fast, simple and accurate, the researchers designed a method named sPAMC, which is based on the classic CRISPR technology, according to Yin Hao, a professor from Wuhan University and a member of the research team.
+"Essentially, what we did was to upgrade the conventional platform to shorten testing time, streamline procedures and make it available in more ways," he said.
+Their findings were published in a study in Nature Biomedical Engineering, a peer-reviewed journal, in late March.
+In an experiment involving 204 throat swabs, including 104 positive ones, the sPAMC technology correctly identified 98 of them as positive, according to the study.
+The results suggested that the tool has a sensitivity of 94.2 percent and a specificity of 100 percent. A test's sensitivity is associated with the likelihood of giving false-negative results.
+Compared to other new testing methods, such as integrated micro and nano technology, Yin said it is easier to scale up production of the test developed by his team because supply chains for making it are relatively mature and similar to the traditional method.
+One caveat, Yin added, was that the new test has to be used at a temperature between 37 and 42 C.
+"We are considering adding a small gadget to the test£­about the size of a ballpoint pen£­to control its temperatures," Yin said.
+Clinical trials, approval process and production preparations will take at least nine months, he said.
